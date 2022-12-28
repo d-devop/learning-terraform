@@ -11,7 +11,7 @@ output "public_ip" {
 resource "aws_security_group" "allow_tls" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
-  vpc_id      = "vpc-042992ad68653bd97"
+  vpc_id      = "vpc-0ddef4631bb569f76"
 
   ingress {
     description = "TLS from VPC"
