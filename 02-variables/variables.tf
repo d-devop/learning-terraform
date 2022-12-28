@@ -59,3 +59,9 @@ output "sample2" {
 output "sample21" {
   value = lookup(var.map1, "string", null)
 }
+
+variable "fruits" {}
+
+output "fruits" {
+  value = var.fruits
+}
